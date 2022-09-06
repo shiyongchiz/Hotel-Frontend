@@ -120,7 +120,7 @@ class Login extends Component {
                             />
                         </div>
 
-                        <div id="phone-input-container" className="form-group icon-true">
+                        <div id="phoneNumber-input-container" className="form-group icon-true">
                             <img className="icon" src={passIcon} alt="this" />
                             <input
                                 placeholder={LanguageUtils.getMessageByKey("login.password", lang)}
